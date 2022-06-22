@@ -9,6 +9,10 @@ export const theme = extendTheme({
     white: '#FFFFFF',
     headingsAndText: '#F5F8FA',
     info: '#DADADA',
+
+    black: '#000000',
+    headingsAndTextDark: '#47585B',
+    infoDark: '#999999',
   },
 
   fonts: {

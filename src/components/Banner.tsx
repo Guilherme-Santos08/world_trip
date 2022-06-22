@@ -8,7 +8,7 @@ export function Banner() {
       backgroundImage="url('/Background.png')"
       backgroundPosition="center"
       backgroundRepeat="no-repeat"
-      px={['2', '4', '6', 140]}
+      px={['4', '4', '6', 140]}
       pt="20"
       pb="16"
     >

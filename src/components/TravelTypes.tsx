@@ -6,9 +6,8 @@ export function TravelTypes() {
     <SimpleGrid
       minChildWidth="120px"
       spacing="40px"
-      px="1"
-      py="1"
-      mt="32"
+      px="4"
+      mt={['8', '9', '32']}
       mx="auto"
       justifyContent="center"
     >

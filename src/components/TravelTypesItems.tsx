@@ -24,7 +24,9 @@ export function TravelTypesItems({ src, alt, text }: TravelTypesItems) {
           borderRadius="full"
           mr="1.5"
         />
-        <Text fontSize="xl">{text}</Text>
+        <Text fontSize="xl" display={['block', 'block', 'none']}>
+          {text}
+        </Text>
       </Flex>
     </Box>
   )
