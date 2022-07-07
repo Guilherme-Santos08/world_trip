@@ -1,12 +1,14 @@
-import type { GetServerSideProps, NextPage } from 'next'
+import { useEffect, useState } from 'react'
+import type { GetServerSideProps } from 'next'
 import { Flex, Text } from '@chakra-ui/react'
+
+import { api } from '../services/api'
 
 import { Header } from '../components/Header'
 import { Banner } from '../components/Banner'
 import { TravelTypes } from '../components/TravelTypes'
 import { Carousel } from '../components/Carousel'
-import { useEffect, useState } from 'react'
-import { api } from '../services/api'
+import { Separation } from '../components/Separation'
 
 interface CountryEmphasis {
   country: string
@@ -37,20 +39,14 @@ export default function Home({}: HomeProps) {
       .then(response => response.json())
       .then(data => setData(data))
   }, [])
+
   return (
     <>
       <Header />
       <Banner />
       <TravelTypes />
-      <Flex
-        w={90}
-        h={1}
-        borderRadius="full"
-        mx="auto"
-        mt={['12', '12', '90']}
-        mb={['12', '12', '14']}
-        bg="headingsAndTextDark"
-      />
+      <Separation />
+
       <Flex align="center" justify="center" mb={12}>
         <Text
           fontWeight="medium"
@@ -67,10 +63,4 @@ export default function Home({}: HomeProps) {
       <Carousel data={data} />
     </>
   )
-}
-
-export const getServerSideProps: GetServerSideProps<any> = async () => {
-  return {
-    props: {},
-  }
 }
