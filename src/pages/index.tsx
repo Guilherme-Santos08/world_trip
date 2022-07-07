@@ -1,12 +1,42 @@
-import type { NextPage } from 'next'
+import type { GetServerSideProps, NextPage } from 'next'
 import { Flex, Text } from '@chakra-ui/react'
 
 import { Header } from '../components/Header'
 import { Banner } from '../components/Banner'
 import { TravelTypes } from '../components/TravelTypes'
 import { Carousel } from '../components/Carousel'
+import { useEffect, useState } from 'react'
+import { api } from '../services/api'
 
-const Home: NextPage = () => {
+interface CountryEmphasis {
+  country: string
+  state: string
+}
+
+export interface Continent {
+  id: number
+  title: string
+  subtitle: string
+  image: string
+
+  countryEmphasis?: CountryEmphasis[]
+  countryLength?: number
+  langueLength?: number
+  citys?: number
+}
+
+interface HomeProps {
+  data: Continent
+}
+
+export default function Home({}: HomeProps) {
+  const [data, setData] = useState([])
+
+  useEffect(() => {
+    fetch('http://localhost:3000/api/continent')
+      .then(response => response.json())
+      .then(data => setData(data))
+  }, [])
   return (
     <>
       <Header />
@@ -34,9 +64,13 @@ const Home: NextPage = () => {
         </Text>
       </Flex>
 
-      <Carousel />
+      <Carousel data={data} />
     </>
   )
 }
 
-export default Home
+export const getServerSideProps: GetServerSideProps<any> = async () => {
+  return {
+    props: {},
+  }
+}

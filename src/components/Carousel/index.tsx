@@ -1,5 +1,5 @@
 // Import Swiper React components
-import { Flex } from '@chakra-ui/react'
+import { Flex, Text } from '@chakra-ui/react'
 import SwiperCore, {
   Navigation,
   Pagination,
@@ -9,10 +9,15 @@ import SwiperCore, {
 } from 'swiper'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Continent } from '../../pages'
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay])
 
-export function Carousel() {
+interface CarouselProps {
+  data: Continent[]
+}
+
+export function Carousel({ data }: CarouselProps) {
   return (
     <Flex
       w="100%"
@@ -31,52 +36,30 @@ export function Carousel() {
         style={{ width: '100%', flex: '1' }}
       >
         <SwiperSlide>
-          <Flex
-            w="100%"
-            h="100%"
-            align="center"
-            justify="center"
-            direction="column"
-            bgImage={`url('./Continent-Image.png')`}
-            bgPosition="100% 30%"
-            bgRepeat="no-repeat"
-            bgSize="cover"
-            textAlign="center"
-          >
-            Teste1
-          </Flex>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Flex
-            w="100%"
-            h="100%"
-            align="center"
-            justify="center"
-            direction="column"
-            bgImage={`url('https://via.placeholder.com/150')`}
-            bgPosition="100% 30%"
-            bgRepeat="no-repeat"
-            bgSize="cover"
-            textAlign="center"
-          >
-            Teste2
-          </Flex>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Flex
-            w="100%"
-            h="100%"
-            align="center"
-            justify="center"
-            direction="column"
-            bgImage={`url('https://via.placeholder.com/150')`}
-            bgPosition="100% 30%"
-            bgRepeat="no-repeat"
-            bgSize="cover"
-            textAlign="center"
-          >
-            Teste3
-          </Flex>
+          {data.map(country => (
+            <Flex
+              key={country.id}
+              w="100%"
+              h="100%"
+              align="center"
+              justify="center"
+              direction="column"
+              bgImage={`url('${country.image}')`}
+              bgPosition="100% 30%"
+              bgRepeat="no-repeat"
+              bgSize="cover"
+              textAlign="center"
+              color="headingsAndText"
+              fontWeight="bold"
+            >
+              <Text as="h3" fontSize="6xl">
+                {country.title}
+              </Text>
+              <Text w={400} color="headingsAndText">
+                {country.subtitle}
+              </Text>
+            </Flex>
+          ))}
         </SwiperSlide>
       </Swiper>
     </Flex>

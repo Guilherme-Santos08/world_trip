@@ -7,6 +7,11 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import '../styles/slider.css'
+import { makeServer } from '../services/mirage'
+
+if (process.env.NODE_ENV === 'development') {
+  makeServer()
+}
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
