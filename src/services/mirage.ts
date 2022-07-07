@@ -35,6 +35,36 @@ export function makeServer() {
                 id: 1,
                 country: 'Brasil',
                 city: 'Rio Janeiro',
+                image:
+                  'https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSvFzaAumI-1_ww5mNE2n6sBJJc11rUklqknnbi0VodEOmxFIOKFWhkoA0zm2gQTdWk',
+              },
+              {
+                id: 2,
+                country: 'Argentina',
+                city: 'Ushuaia',
+                image:
+                  'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTG94QeEWyUcKhzJBbpaOWRgZtmDC0JJo6_dSDMwOJTsgar9f_1631hqS9GJXpo9OUv',
+              },
+              {
+                id: 3,
+                country: 'Peru',
+                city: 'Lima',
+                image:
+                  'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQeJsNBOoeYBM3hgmRLI9bm3Gs0xHZAJ49uqL_naEsIgBRBdIiwm6chiUzAajR-8jtM',
+              },
+              {
+                id: 4,
+                country: 'Chile',
+                city: 'Santiago',
+                image:
+                  'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTZdUBvPVaKGS4mB3Ttc9325I0BI2BGUV_JJinTZaMQL-HA7jvkIsoJ9kXJ93pdm6Yf',
+              },
+              {
+                id: 5,
+                country: 'Paraguay',
+                city: 'Asunción',
+                image:
+                  'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTFYSjmHZCbGz6Tg-qcjrAE-Q14a5OwzRU2FqHo-fblgZ7mG48JnjHxlfBoI4TwN85O',
               },
             ],
             countryLength: 12,
@@ -54,8 +84,24 @@ export function makeServer() {
             countryEmphasis: [
               {
                 id: 1,
-                country: 'Egito',
-                city: 'Giza',
+                country: 'Africa do Sul',
+                city: 'Cape Town',
+                image:
+                  'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTfd_vOa29DU0mLgNi64CfwgCYXvkGJ_xaSk4rp9TJ6dewMYVoYyQOs7rY-b5d9Qlry',
+              },
+              {
+                id: 2,
+                country: 'Kenya',
+                city: 'Nairobi',
+                image:
+                  'http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTS3ISeZlZhqfw9wLHe9gqUCDUmmrrrTj0AX10Hn3iMThWUvcp8yE3BoEXu8tzrlMah',
+              },
+              {
+                id: 3,
+                country: 'Ghana',
+                city: 'Accra',
+                image:
+                  'http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQv0qDmUwDwKUadqHE43AzZc2t-Mcg849-mlcBdOVbjf7UjDGNPEPd0egT6oh8eHLti',
               },
             ],
             countryLength: 54,
@@ -77,6 +123,36 @@ export function makeServer() {
                 id: 1,
                 country: 'Japão',
                 city: 'Tokyo',
+                image:
+                  'https://upload.wikimedia.org/wikipedia/commons/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg',
+              },
+              {
+                id: 2,
+                country: 'China',
+                city: 'Shanghai',
+                image:
+                  'http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQ-Kr35ZnOY1h-xaHeCziDK3-8HuXgIIsB-buK0-BWJx_ci8VzEZY-Ni-rdPtNmtjFO',
+              },
+              {
+                id: 3,
+                country: 'Indonesia',
+                city: 'Jakarta',
+                image:
+                  'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRWA2_a4L_zJiu6eiu-jXp-Bb5IS1XZZw5-F9HeeVnkXkNgpKg4WCuSPYS7GT7o3RrF',
+              },
+              {
+                id: 4,
+                country: 'Qatar',
+                city: 'Doha',
+                image:
+                  'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRr6JrYYQRU_C1iY8V_kuLTaT7AGb_-qKJ-PPRbR_qojsysf-qIKxID69UnTc51-ncS',
+              },
+              {
+                id: 5,
+                country: 'Israel',
+                city: 'Jerusalem',
+                image:
+                  'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQZy5v-oIWpGsEuVQZoImsPOXHXAMJDEyyatYuhceHUdXaDPoidS9XTfcKV2FuILEUU',
               },
             ],
             countryLength: 50,
@@ -98,6 +174,36 @@ export function makeServer() {
                 id: 1,
                 country: 'Reino Unido',
                 city: 'Londres',
+                image:
+                  'http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRUX4B6Pq3fbfveipFaUMGHBPNe1_NCC2e7QHHZRSVaobfggrIrSIFe75_8l78k08Uj',
+              },
+              {
+                id: 2,
+                country: 'Italia',
+                city: 'Roma',
+                image:
+                  'http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQzUCow983AVBVT9H062wMUEiXfJVZNrcOYKsm8aMJoGu3u4BBfio70QdznkTrwrV33',
+              },
+              {
+                id: 3,
+                country: 'França',
+                city: 'Paris',
+                image:
+                  'http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQ1oS-DeKDIgvicoSyoD8KKoIAinTTDeC6VO7erBHEsAggFjaZYZ6YP1HkFahtlKTb_',
+              },
+              {
+                id: 4,
+                country: 'Belgica',
+                city: 'Bruges',
+                image:
+                  'http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSyWH1W5NqVmA1lWruJi5ahirZrRQue4sLUkerJesKo-IZslTBbWaMKKujyZoGnhgVt',
+              },
+              {
+                id: 5,
+                country: 'Grecia',
+                city: 'Athens',
+                image:
+                  'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTKns1F4QGVMD49rIpI8-rSopjwTWg5p58UO9lFIdBAYwEJHhTW4jzKJp_zhyqFd602',
               },
             ],
             countryLength: 50,
@@ -108,7 +214,7 @@ export function makeServer() {
           },
           {
             id: 5,
-            title: 'Europa',
+            title: 'America do Sul',
             subtitle:
               'A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México',
 
@@ -119,7 +225,23 @@ export function makeServer() {
               {
                 id: 1,
                 country: 'EUA',
-                city: 'Florida',
+                city: 'Nova Iorque',
+                image:
+                  'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcT2flpNZx086BC6BmM-NlHkukeLeHgtDwKFU-4RX0NNegXJIKV8EGvm7Rlt3sgSlckT',
+              },
+              {
+                id: 2,
+                country: 'Canada',
+                city: 'Toronto',
+                image:
+                  'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTYTf1qu1jZ6u0JMJbtMcti95j5q1yM9BTriaUfiYZvczi1mch1DGnhP2lWGgU8dYGO',
+              },
+              {
+                id: 3,
+                country: 'Mexico',
+                city: 'Cancún',
+                image:
+                  'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTSRULEqe0xsIsqg3QiyX_2gwNtQFOj_jJQzyKufS86ICZxs-7aCw6Ruj0a_2dK_4DM',
               },
             ],
             countryLength: 3,
