@@ -13,6 +13,7 @@ import { Separation } from '../components/Separation'
 interface CountryEmphasis {
   country: string
   state: string
+  image: string
 }
 
 export interface Continent {
@@ -21,10 +22,12 @@ export interface Continent {
   subtitle: string
   image: string
 
-  countryEmphasis?: CountryEmphasis[]
-  countryLength?: number
-  langueLength?: number
-  citys?: number
+  countryEmphasis: CountryEmphasis[]
+  countryLength: number
+  langueLength: number
+  citys: number
+
+  info: string
 }
 
 interface HomeProps {
@@ -52,7 +55,7 @@ export default function Home({}: HomeProps) {
           fontWeight="medium"
           as="h2"
           align="center"
-          fontSize="3xl"
+          fontSize={['xl', '3xl']}
           color="headingsAndTextDark"
           w={400}
         >
