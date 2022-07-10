@@ -9,10 +9,12 @@ import { Banner } from '../components/Banner'
 import { TravelTypes } from '../components/TravelTypes'
 import { Carousel } from '../components/Carousel'
 import { Separation } from '../components/Separation'
+import Head from 'next/head'
 
-interface CountryEmphasis {
+export interface CountryCitys {
+  id: number
   country: string
-  state: string
+  city: string
   image: string
 }
 
@@ -22,7 +24,7 @@ export interface Continent {
   subtitle: string
   image: string
 
-  countryEmphasis: CountryEmphasis[]
+  countryCitys: CountryCitys[]
   countryLength: number
   langueLength: number
   citys: number
@@ -45,6 +47,10 @@ export default function Home({}: HomeProps) {
 
   return (
     <>
+      <Head>
+        <title>Home</title>
+      </Head>
+
       <Header />
       <Banner />
       <TravelTypes />

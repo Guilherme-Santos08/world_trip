@@ -1,7 +1,9 @@
 import { Box, Flex, Text } from '@chakra-ui/react'
+import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import { Continent } from '..'
+import { StackEx } from '../../components/Card'
 import { Header } from '../../components/Header'
 import { InfoCountry } from '../../components/InfoCountry'
 
@@ -24,6 +26,9 @@ export default function Country() {
 
   return (
     <>
+      <Head>
+        <title>{country?.title}</title>
+      </Head>
       <Header buttonBackHome={true} />
       <Flex
         alignItems="flex-end"
@@ -46,7 +51,22 @@ export default function Country() {
       </Flex>
 
       <Box mx={[4, 6, 140]} my={['6', '20']}>
-        <InfoCountry data={country} />
+        <Box>
+          <InfoCountry data={country} />
+        </Box>
+
+        <Box mt={['9', '20']}>
+          <Text
+            as="h2"
+            mb="7"
+            fontSize={['xl', '4xl']}
+            color="headingsAndTextDark"
+            fontWeight="semibold"
+          >
+            Cidades +100
+          </Text>
+          <StackEx data={country?.countryCitys} />
+        </Box>
       </Box>
     </>
   )

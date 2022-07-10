@@ -30,7 +30,7 @@ export function makeServer() {
             image:
               'https://bigseventravel.com/wp-content/uploads/2019/08/Screenshot-2019-08-12-at-14.31.46.png',
 
-            countryEmphasis: [
+            countryCitys: [
               {
                 id: 1,
                 country: 'Brasil',
@@ -81,7 +81,7 @@ export function makeServer() {
             image:
               'https://bigseventravel.com/wp-content/uploads/2019/08/Screenshot-2019-08-14-at-09.35.43.png',
 
-            countryEmphasis: [
+            countryCitys: [
               {
                 id: 1,
                 country: 'Africa do Sul',
@@ -118,7 +118,7 @@ export function makeServer() {
             image:
               'https://bigseventravel.com/wp-content/uploads/2019/08/Screenshot-2019-08-14-at-12.45.18.png',
 
-            countryEmphasis: [
+            countryCitys: [
               {
                 id: 1,
                 country: 'Japão',
@@ -169,7 +169,7 @@ export function makeServer() {
             image:
               'https://bigseventravel.com/wp-content/uploads/2019/08/Screenshot-2019-08-13-at-16.38.03.png',
 
-            countryEmphasis: [
+            countryCitys: [
               {
                 id: 1,
                 country: 'Reino Unido',
@@ -221,7 +221,7 @@ export function makeServer() {
             image:
               'https://bigseventravel.com/wp-content/uploads/2019/08/Screenshot-2019-08-12-at-17.38.11.png',
 
-            countryEmphasis: [
+            countryCitys: [
               {
                 id: 1,
                 country: 'EUA',
