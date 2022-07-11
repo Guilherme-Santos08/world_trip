@@ -41,7 +41,9 @@ export default function Home({}: HomeProps) {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/continent')
+    const URL = window.location.protocol + '//' + window.location.host
+
+    fetch(`${URL}/api/continent`)
       .then(response => response.json())
       .then(data => setData(data))
   }, [])

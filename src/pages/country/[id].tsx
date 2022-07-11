@@ -14,7 +14,9 @@ export default function Country() {
   const [country, setCountry] = useState<Continent>(Object)
   useEffect(() => {
     const fetchApi = async () => {
-      const fetchUrl = await fetch('http://localhost:3000/api/continent')
+      const URL = window.location.protocol + '//' + window.location.host
+
+      const fetchUrl = await fetch(`${URL}/api/continent`)
       const response = await fetchUrl.json()
       const data = await response.filter(
         (datas: Continent) => String(datas.id) === id
