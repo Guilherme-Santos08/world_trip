@@ -35,6 +35,7 @@ export function makeServer() {
                 id: 1,
                 country: 'Brasil',
                 city: 'Rio Janeiro',
+                flag: 'https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg',
                 image:
                   'https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSvFzaAumI-1_ww5mNE2n6sBJJc11rUklqknnbi0VodEOmxFIOKFWhkoA0zm2gQTdWk',
               },
@@ -42,6 +43,7 @@ export function makeServer() {
                 id: 2,
                 country: 'Argentina',
                 city: 'Ushuaia',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/2560px-Flag_of_Argentina.svg.png',
                 image:
                   'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTG94QeEWyUcKhzJBbpaOWRgZtmDC0JJo6_dSDMwOJTsgar9f_1631hqS9GJXpo9OUv',
               },
@@ -49,6 +51,7 @@ export function makeServer() {
                 id: 3,
                 country: 'Peru',
                 city: 'Lima',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/2560px-Flag_of_Peru_%28state%29.svg.png',
                 image:
                   'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQeJsNBOoeYBM3hgmRLI9bm3Gs0xHZAJ49uqL_naEsIgBRBdIiwm6chiUzAajR-8jtM',
               },
@@ -56,6 +59,7 @@ export function makeServer() {
                 id: 4,
                 country: 'Chile',
                 city: 'Santiago',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/2560px-Flag_of_Chile.svg.png',
                 image:
                   'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTZdUBvPVaKGS4mB3Ttc9325I0BI2BGUV_JJinTZaMQL-HA7jvkIsoJ9kXJ93pdm6Yf',
               },
@@ -63,6 +67,7 @@ export function makeServer() {
                 id: 5,
                 country: 'Paraguay',
                 city: 'Asunción',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/0/07/Flag_of_Paraguay_%283-2%29.svg',
                 image:
                   'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTFYSjmHZCbGz6Tg-qcjrAE-Q14a5OwzRU2FqHo-fblgZ7mG48JnjHxlfBoI4TwN85O',
               },
@@ -86,6 +91,7 @@ export function makeServer() {
                 id: 1,
                 country: 'Africa do Sul',
                 city: 'Cape Town',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1024px-Flag_of_South_Africa.svg.png',
                 image:
                   'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTfd_vOa29DU0mLgNi64CfwgCYXvkGJ_xaSk4rp9TJ6dewMYVoYyQOs7rY-b5d9Qlry',
               },
@@ -93,6 +99,7 @@ export function makeServer() {
                 id: 2,
                 country: 'Kenya',
                 city: 'Nairobi',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/2560px-Flag_of_Kenya.svg.png',
                 image:
                   'http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTS3ISeZlZhqfw9wLHe9gqUCDUmmrrrTj0AX10Hn3iMThWUvcp8yE3BoEXu8tzrlMah',
               },
@@ -100,6 +107,7 @@ export function makeServer() {
                 id: 3,
                 country: 'Ghana',
                 city: 'Accra',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/640px-Flag_of_Ghana.svg.png',
                 image:
                   'http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQv0qDmUwDwKUadqHE43AzZc2t-Mcg849-mlcBdOVbjf7UjDGNPEPd0egT6oh8eHLti',
               },
@@ -123,6 +131,7 @@ export function makeServer() {
                 id: 1,
                 country: 'Japão',
                 city: 'Tokyo',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/2560px-Flag_of_Japan.svg.png',
                 image:
                   'https://upload.wikimedia.org/wikipedia/commons/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg',
               },
@@ -130,6 +139,7 @@ export function makeServer() {
                 id: 2,
                 country: 'China',
                 city: 'Shanghai',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/2560px-Flag_of_the_People%27s_Republic_of_China.svg.png',
                 image:
                   'http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQ-Kr35ZnOY1h-xaHeCziDK3-8HuXgIIsB-buK0-BWJx_ci8VzEZY-Ni-rdPtNmtjFO',
               },
@@ -137,6 +147,7 @@ export function makeServer() {
                 id: 3,
                 country: 'Indonesia',
                 city: 'Jakarta',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/1280px-Flag_of_Indonesia.svg.png',
                 image:
                   'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRWA2_a4L_zJiu6eiu-jXp-Bb5IS1XZZw5-F9HeeVnkXkNgpKg4WCuSPYS7GT7o3RrF',
               },
@@ -144,6 +155,7 @@ export function makeServer() {
                 id: 4,
                 country: 'Qatar',
                 city: 'Doha',
+                flag: 'https://media.istockphoto.com/vectors/flag-of-qatar-vector-id1063898358?k=20&m=1063898358&s=612x612&w=0&h=4zBQBDyV-j07zZ5ktk6e_Buug-IczKBFXWOxbANFTQ4=',
                 image:
                   'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRr6JrYYQRU_C1iY8V_kuLTaT7AGb_-qKJ-PPRbR_qojsysf-qIKxID69UnTc51-ncS',
               },
@@ -151,6 +163,7 @@ export function makeServer() {
                 id: 5,
                 country: 'Israel',
                 city: 'Jerusalem',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/640px-Flag_of_Israel.svg.png',
                 image:
                   'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQZy5v-oIWpGsEuVQZoImsPOXHXAMJDEyyatYuhceHUdXaDPoidS9XTfcKV2FuILEUU',
               },
@@ -165,15 +178,16 @@ export function makeServer() {
             id: 4,
             title: 'Europa',
             subtitle:
-              'A Ásia é um dos continentes do mundo, considerado o mais extenso territorialmente e o mais populoso também.',
+              'Europa é um dos seis continentes do mundo, localizado a oeste da Ásia e ao norte da África.',
             image:
-              'https://bigseventravel.com/wp-content/uploads/2019/08/Screenshot-2019-08-13-at-16.38.03.png',
+              'https://destinocompartilhado.com/wp-content/uploads/2017/12/Noite-em-Londres.jpg',
 
             countryCitys: [
               {
                 id: 1,
                 country: 'Reino Unido',
                 city: 'Londres',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/255px-Flag_of_the_United_Kingdom_%283-5%29.svg.png',
                 image:
                   'http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRUX4B6Pq3fbfveipFaUMGHBPNe1_NCC2e7QHHZRSVaobfggrIrSIFe75_8l78k08Uj',
               },
@@ -181,6 +195,7 @@ export function makeServer() {
                 id: 2,
                 country: 'Italia',
                 city: 'Roma',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1500px-Flag_of_Italy.svg.png',
                 image:
                   'http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQzUCow983AVBVT9H062wMUEiXfJVZNrcOYKsm8aMJoGu3u4BBfio70QdznkTrwrV33',
               },
@@ -188,6 +203,7 @@ export function makeServer() {
                 id: 3,
                 country: 'França',
                 city: 'Paris',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/2560px-Flag_of_France.svg.png',
                 image:
                   'http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQ1oS-DeKDIgvicoSyoD8KKoIAinTTDeC6VO7erBHEsAggFjaZYZ6YP1HkFahtlKTb_',
               },
@@ -195,6 +211,7 @@ export function makeServer() {
                 id: 4,
                 country: 'Belgica',
                 city: 'Bruges',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/2363px-Flag_of_Belgium.svg.png',
                 image:
                   'http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSyWH1W5NqVmA1lWruJi5ahirZrRQue4sLUkerJesKo-IZslTBbWaMKKujyZoGnhgVt',
               },
@@ -202,6 +219,7 @@ export function makeServer() {
                 id: 5,
                 country: 'Grecia',
                 city: 'Athens',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/2560px-Flag_of_Greece.svg.png',
                 image:
                   'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTKns1F4QGVMD49rIpI8-rSopjwTWg5p58UO9lFIdBAYwEJHhTW4jzKJp_zhyqFd602',
               },
@@ -214,7 +232,7 @@ export function makeServer() {
           },
           {
             id: 5,
-            title: 'America do Sul',
+            title: 'America do Norte',
             subtitle:
               'A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México',
 
@@ -226,6 +244,7 @@ export function makeServer() {
                 id: 1,
                 country: 'EUA',
                 city: 'Nova Iorque',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/2560px-Flag_of_the_United_States.svg.png',
                 image:
                   'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcT2flpNZx086BC6BmM-NlHkukeLeHgtDwKFU-4RX0NNegXJIKV8EGvm7Rlt3sgSlckT',
               },
@@ -233,6 +252,7 @@ export function makeServer() {
                 id: 2,
                 country: 'Canada',
                 city: 'Toronto',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/2560px-Flag_of_Canada.svg.png',
                 image:
                   'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTYTf1qu1jZ6u0JMJbtMcti95j5q1yM9BTriaUfiYZvczi1mch1DGnhP2lWGgU8dYGO',
               },
@@ -240,12 +260,13 @@ export function makeServer() {
                 id: 3,
                 country: 'Mexico',
                 city: 'Cancún',
+                flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/2560px-Flag_of_Mexico.svg.png',
                 image:
                   'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTSRULEqe0xsIsqg3QiyX_2gwNtQFOj_jJQzyKufS86ICZxs-7aCw6Ruj0a_2dK_4DM',
               },
             ],
-            countryLength: 3,
-            langueLength: 256,
+            countryLength: 4,
+            langueLength: 4,
             citys: 200,
 
             info: 'A princípio a população da América do Norte era formada por índios que habitavam principalmente o território do oeste dos EUA, esquimós, nas áreas mais frias do Canadá e Alaska (EUA) e os astecas no México.',

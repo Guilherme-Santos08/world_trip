@@ -46,6 +46,8 @@ export function Carousel({ data }: CarouselProps) {
                 align="center"
                 justify="center"
                 direction="column"
+                filter="auto"
+                brightness="90%"
                 bgImage={`url('${country.image}')`}
                 bgPosition="100% 30%"
                 bgRepeat="no-repeat"

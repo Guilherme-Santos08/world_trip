@@ -15,6 +15,7 @@ export interface CountryCitys {
   id: number
   country: string
   city: string
+  flag: string
   image: string
 }
 

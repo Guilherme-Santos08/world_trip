@@ -23,12 +23,14 @@ export function StackEx({ data }: StackExProps) {
           borderWidth="1px"
           w="full"
           maxW={['64', '72']}
+          height={'279px'}
           key={city?.id}
         >
           <Image
             src={city?.image}
             alt={`Imagem da cidade ${city.city}`}
             w="100%"
+            h="173px"
             borderTopRightRadius="base"
             borderTopLeftRadius="base"
           />
@@ -56,7 +58,8 @@ export function StackEx({ data }: StackExProps) {
                 width="full"
                 height="full"
                 borderRadius="full"
-                src="https://cdn.awsli.com.br/800x800/129/129579/produto/10014027/67b3a98d22.jpg"
+                objectFit="cover"
+                src={city?.flag}
                 alt={`bandeira do país ${city.country}`}
               />
             </Box>
