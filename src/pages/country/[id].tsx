@@ -6,6 +6,7 @@ import { Continent } from '..'
 import { StackEx } from '../../components/Card'
 import { Header } from '../../components/Header'
 import { InfoCountry } from '../../components/InfoCountry'
+import { api } from '../../services/api'
 
 export default function Country() {
   const router = useRouter()
@@ -14,11 +15,8 @@ export default function Country() {
   const [country, setCountry] = useState<Continent>(Object)
   useEffect(() => {
     const fetchApi = async () => {
-      const URL = window.location.protocol + '//' + window.location.host
-
-      const fetchUrl = await fetch(`${URL}/api/continent`)
-      const response = await fetchUrl.json()
-      const data = await response.filter(
+      const response = await api.get('continent')
+      const data = await response.data.filter(
         (datas: Continent) => String(datas.id) === id
       )
       setCountry(data[0])
