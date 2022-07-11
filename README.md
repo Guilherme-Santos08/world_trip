@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to dashgo 👋</h1>
 
-> Dashgo
+> WorldTrip
 
 ## Demo
 
@@ -8,14 +8,13 @@
   World Trip
 </p>
 
-  <img width="700" align="center" src="./.github/demoDashgo.gif" alt="demo"/>
+  <img width="700" align="center" src="./.github/demoWorldTrip.gif" alt="demo"/>
 
 ## Technology
 
 - NextJs
 - Chakra-UI
 - MirageJs
-
 
 ## 🛠️ Installation
 
