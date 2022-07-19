@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to dashgo 👋</h1>
+<h1 align="center">Welcome to world_trip 👋</h1>
 
 > WorldTrip
 
